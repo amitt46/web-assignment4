@@ -15,7 +15,7 @@ const collegeData = require("./modules/collegeData");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"))
-
+/* just to test*/
 collegeData
   .initialize()
   .then(() => {
